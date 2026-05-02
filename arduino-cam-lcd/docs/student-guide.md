@@ -47,7 +47,7 @@ This project uses the receiver pin definitions in [arduino-cam-lcd/receiver/rece
 
 ## 4) Wiring Diagram
 
-![Wiring Diagram](circuit_image.png)
+![Wiring Diagram](./circuit_image.png)
 
 ## 5) Wiring Diagram (Logical)
 
