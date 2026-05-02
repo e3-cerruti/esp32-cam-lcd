@@ -1,0 +1,9 @@
+Breadboard Row,Screen Label,Wire Color,ESP32 Pin,Board Label,Notes
+23,VCC,Red,3V3,3V3,Power
+24,GND,Black,GND,GND,Ground
+25,CS,Yellow,GPIO5,D5,SPI chip select
+26,RESET,Orange,GPIO4,D4,Display reset
+27,A0/DC,Green,GPIO21,D21,IMPORTANT: moved off GPIO2
+28,SDA/MOSI,Blue,GPIO23,D23,SPI MOSI
+29,SCK,White,GPIO18,D18,SPI clock
+30,LED,Red,3V3,3V3,Backlight power

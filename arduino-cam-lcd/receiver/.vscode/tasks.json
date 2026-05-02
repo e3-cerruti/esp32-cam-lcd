@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compile and upload receiver",
+			"type": "shell",
+			"command": "\"/Applications/Arduino IDE.app/Contents/Resources/app/lib/backend/resources/arduino-cli\"",
+			"args": [
+				"compile",
+				"--fqbn",
+				"esp32:esp32:esp32",
+				"receiver.ino",
+				"&&",
+				"\"/Applications/Arduino IDE.app/Contents/Resources/app/lib/backend/resources/arduino-cli\"",
+				"upload",
+				"-p",
+				"/dev/cu.usbserial-0001",
+				"--fqbn",
+				"esp32:esp32:esp32",
+				"receiver.ino"
+			]
+		},
+		{
+			"label": "Compile and upload receiver",
+			"type": "shell",
+			"command": "cd \"/Users/scerruti/esp32 display/arduino-cam-lcd/receiver\" && \"/Applications/Arduino IDE.app/Contents/Resources/app/lib/backend/resources/arduino-cli\" compile --fqbn esp32:esp32:esp32 receiver.ino && \"/Applications/Arduino IDE.app/Contents/Resources/app/lib/backend/resources/arduino-cli\" upload -p /dev/cu.usbserial-0001 --fqbn esp32:esp32:esp32 receiver.ino"
+		}
+	]
+}

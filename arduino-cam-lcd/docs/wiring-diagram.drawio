@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" modified="2026-05-01T00:00:00.000Z" agent="Mozilla/5.0" version="24.7.17" type="device">
+  <diagram id="wiring" name="ESP32-ST7735-Wiring">
+    <mxGraphModel dx="1280" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="ESP32 Receiver to ST7735 TFT Wiring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="280" y="20" width="420" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="esp" value="ESP32 Receiver\n(38-pin dev board)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="260" height="360" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="tft" value="ST7735 TFT\n1.8in SPI Display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="230" height="280" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="note" value="Important: TFT A0/DC is on GPIO21 (D21), not GPIO2." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="360" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pwr3v3" value="3V3" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="gnd" value="GND" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d5" value="GPIO5 (D5)" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d4" value="GPIO4 (D4)" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="290" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d21" value="GPIO21 (D21)" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d23" value="GPIO23 (D23)" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d18" value="GPIO18 (D18)" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="410" width="110" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="tvcc" value="VCC" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="200" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="tgnd" value="GND" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="tcs" value="CS" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="trst" value="RESET" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ta0" value="A0 / DC" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="tsda" value="SDA / MOSI" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="350" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="tsck" value="SCK" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="tled" value="LED" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="410" width="70" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#ff0000;" edge="1" parent="1" source="pwr3v3" target="tvcc">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="gnd" target="tgnd">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="CS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#ffd966;" edge="1" parent="1" source="d5" target="tcs">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="RST" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#f6b26b;" edge="1" parent="1" source="d4" target="trst">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" value="A0/DC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6aa84f;" edge="1" parent="1" source="d21" target="ta0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" value="MOSI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#3d85c6;" edge="1" parent="1" source="d23" target="tsda">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" value="SCK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#cccccc;" edge="1" parent="1" source="d18" target="tsck">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#ff0000;" edge="1" parent="1" source="pwr3v3" target="tled">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

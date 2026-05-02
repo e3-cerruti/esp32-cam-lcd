@@ -1,0 +1,85 @@
+{
+  "length": 9836,
+  "markers": [
+    {
+      "marker": "FFE0",
+      "length": 16
+    },
+    {
+      "marker": "FFDB",
+      "length": 67
+    },
+    {
+      "marker": "FFDB",
+      "length": 67
+    },
+    {
+      "marker": "FFC4",
+      "length": 31
+    },
+    {
+      "marker": "FFC4",
+      "length": 181
+    },
+    {
+      "marker": "FFC4",
+      "length": 31
+    },
+    {
+      "marker": "FFC4",
+      "length": 181
+    },
+    {
+      "marker": "FFC0",
+      "length": 17
+    },
+    {
+      "marker": "FFDA",
+      "length": 12
+    }
+  ],
+  "sof": {
+    "marker": "FFC0",
+    "precision": 8,
+    "height": 240,
+    "width": 320,
+    "components": [
+      {
+        "id": 1,
+        "h_samp": 2,
+        "v_samp": 1,
+        "qt": 0
+      },
+      {
+        "id": 2,
+        "h_samp": 1,
+        "v_samp": 1,
+        "qt": 1
+      },
+      {
+        "id": 3,
+        "h_samp": 1,
+        "v_samp": 1,
+        "qt": 1
+      }
+    ]
+  },
+  "app0": {
+    "identifier": "JFIF",
+    "version": "1.1",
+    "density_units": 1,
+    "x_density": 0,
+    "y_density": 0
+  },
+  "app1": null,
+  "comment": null,
+  "url": "http://192.168.4.1/capture",
+  "http_status": 200,
+  "http_headers": {
+    "Content-Type": "image/jpeg",
+    "Content-Length": "9836",
+    "Content-Disposition": "inline; filename=capture.jpg"
+  },
+  "saved_jpeg": "/Users/scerruti/esp32 display/arduino-cam-lcd/camera_fetch_output/capture_20260501_173251.jpg",
+  "decoded_png": "/Users/scerruti/esp32 display/arduino-cam-lcd/camera_fetch_output/capture_20260501_173251_decoded.png"
+}

@@ -1,0 +1,7 @@
+Qty,Part,Notes
+1,ESP32 Dev Board (receiver),38-pin ESP32-WROOM style
+1,ESP32-CAM (AI Thinker),camera sender
+1,ST7735 TFT SPI display (1.8in 160x128),pins: VCC GND CS RST A0 SDA SCK LED
+1,Half-size breadboard,for receiver wiring
+8,Male-male jumper wires,for TFT to receiver
+2,USB cable,receiver and camera power/programming
